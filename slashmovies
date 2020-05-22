@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>slashmovies</title>
+  </head>
+<style type="text/css">
+ body{
+  background: skyblue;
+  margin: 0;
+
+ }
+.menu{
+  width: 100%;
+  background: #142b47;
+  overflow: auto;
+}
+.menu ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  line-height: 60px;
+
+}
+.menu li{
+  float: left;
+}
+.menu ul li a{
+  background: #142b47;
+  text-decoration: none;
+  width: 130px;
+  display: block;
+  text-align: center;
+  color: #f2f2f2;
+  font-size: 18px;
+  font-family: sans-serif;
+  letter-spacing: 0.5px;
+
+}
+.menu li a:hover{
+  color: #fff;
+  opacity: 0.5px;
+  font-size: 19px;
+
+}
+.search-form{
+  margin-top: 15px;
+  float: right;
+  margin-right: 100px;
+}
+input[type=text]{
+  padding: 7px;
+  border: none;
+  font-size: 16px;
+  font-family: sans-serif;
+  margin-top: 15px;
+
+}
+button{
+  float: right;
+  background: orange;
+  color: white;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  position: relative;
+  padding: 7px;
+  font-family: sans-serif;
+  border: none;
+  font-size: 16px;
+  margin-right: 226px;
+  margin-top: 15px;
+
+}
+
+</style>
+<body style="background-color:black; color:white;">
+ <nav class="menu">
+  <ul>
+   <li><a href="">Home</a></li>
+   <li><a href="">Gallary</a></li>
+   <li><a href="">Event</a></li>
+   <li><a href="">Feedback</a></li>
+   <li><a href="">About</a></li>
+   <li><a href="">Contact</a></li>
+
+  </ul>
+<form>
+ <input type="text" placeholder="Search">
+ <button>Search</button>
+</form>
+
+
+
+ </nav>
+
+
+
+    <center><h1><b><i>SLASH MOVIES</i></b></h1></center>
+    <hr/><hr/style="color:black;">
+    <br/><br/><br/>
+    <!--<h3>invisible 1:20:00</h3>-->
+    <table>
+     <tr>
+      <td></td><td></td><td></td><td></td><td></td>
+      <td><a href="scoo move.mp4"><img width="150" src="scoob.jpg" alt="scoob the movie"></a></td>
+      <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+      <td><a href="scoo move.mp4"><img src="12.jpg" alt="Smiley face" style="float:right;width:300px;"></a></td>
+
+
+     </tr>
+   </table>
+
+
+   <table>
+    <tr>
+     <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+     <td><h1><p>scoob</p></h1></td>
+    </tr>
+   </table>
+
+
+  </body>
+</html>
